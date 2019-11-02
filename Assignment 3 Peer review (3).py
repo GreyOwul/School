@@ -33,7 +33,7 @@ if Pyramid_Choice == "Half":
                             
 if Pyramid_Choice == "Full":
     for i in range(1,numlines+1):
-        print(" "*(numlines-i), end="") #(, end="") allows for the next print function to concatenate on the same line. ("    "+"1")
+        print(" "*(numlines-i), end="") #(, end="") allows for the next print function to concatenate on the same line. ("    "+"1") etc.
         #Line above creates spacing for full pyramid
         print((10**i//9)**2)    
     #Pyramid is printed, end of code.
