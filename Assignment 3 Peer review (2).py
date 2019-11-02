@@ -12,7 +12,7 @@ if Display=="Half":
     
     print()#Create Space
     print("Half Pyramid:")
-    print()#Create Space
+    print()
 
 
     for i in range (1, rowNumber+1): #Inlude "+1" so that it prints the correct number of desired lines
