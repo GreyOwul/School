@@ -1,6 +1,6 @@
 """ 
 
-This code will take an input number then,
+This code will take an input number, then
 take input on whether a Full/Half pyramid is displayed, then
 prints a palindrome Full/Half pyramid with that number of lines.
 
