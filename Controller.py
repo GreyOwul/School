@@ -12,7 +12,7 @@ def GetDirection(X, Y):
 
     X-=512
     Y-=522
-    if (Y**2+X**2)>=625:
+    if (Y**2+X**2)<=625:
         print(X,Y)
         return 4 #NONE
     if Y>=X and Y>=(-1)*X:
