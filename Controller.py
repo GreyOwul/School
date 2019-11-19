@@ -18,7 +18,7 @@ def GetDirection(X, Y):
     if Y>=X and Y>=(-1)*X:
         print(X,Y)
         return 1 #UP
-    if Y>=X and Y<=(-1)*X:
+    if Y>=X and Y<(-1)*X:
         print(X,Y)
         return 0 #RIGHT
     if Y<X and Y>=(-1)*X:
