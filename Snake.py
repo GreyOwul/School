@@ -11,8 +11,8 @@ Integers:
 Diff = difficulty setting
 Diff = 0 (easy)
 
-Move = Right(0),Up(1),Left(2),Down(3)
-    Move = 0
+Move = Right("R"),Up("U"),Left("L"),Down("D"),None(N)
+    Move = "R"
     
 Score = Score of game, up by one
     Score = 0
