@@ -4,6 +4,10 @@ import sys, pygame
 import random
 import os
 
+"""
+Written by Sean Drover and Martha King.
+"""
+
 pygame.init()
 
 connection = arduinoInit('COM4')
